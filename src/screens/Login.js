@@ -29,7 +29,7 @@ export default function Login() {
             </Item>
           </View>
           <View style={styles.secondary}>
-            <Item floatingLabel style={styles.inner}>
+            <Item floatingLabel>
               <Label>Password</Label>
               <Input
                 placeholder="Password"

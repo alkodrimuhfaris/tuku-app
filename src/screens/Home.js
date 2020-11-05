@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import {Card} from 'native-base';
-import homeImage from './src/assets/homePhotos/headers.png';
+import homeImage from '../assets/homePhotos/headers/png';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faBell, faCircle, faStar} from '@fortawesome/free-solid-svg-icons';
 import currency from './src/helpers/currencyFormat';
@@ -62,7 +62,7 @@ function Header() {
           </View>
           <FontAwesomeIcon
             icon={faCircle}
-            color={'red'}
+            color={'#7C4935'}
             size={10}
             style={headerStyles.notifDot}
           />
@@ -302,8 +302,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 30,
     marginBottom: 15,
-    paddingLeft: '2%',
-    paddingRight: '2%',
+    paddingLeft: '5%',
+    paddingRight: '5%',
   },
   wrapTitle: {
     flexDirection: 'column',
